@@ -57,7 +57,7 @@ void setup()
 {
     Serial.begin(9600);
     while (!Serial.available()) {
-        Serial.println("Press any key to start.");
+        Serial.println("Bir tuşa basın");
         delay (1000);
     }
     Serial.println("DHT Example program using 2 DHT sensors");
